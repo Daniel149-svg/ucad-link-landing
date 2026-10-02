@@ -1,0 +1,918 @@
+<header class="site-header">
+  <div class="nav-shell">
+
+    <a class="brand" href="#inicio" aria-label="UCAD Link, inicio">
+      <img
+        src="assets/images/logo-ucad-link.png"
+        alt="UCAD Link"
+        class="brand-image"
+      >
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <button type="button" (click)="scrollTo('inicio')">Inicio</button>
+      <button type="button" (click)="scrollTo('nosotros')">Nosotros</button>
+      <button type="button" (click)="scrollTo('explora')">Explora</button>
+      <button type="button" (click)="scrollTo('proyectos')">Proyectos</button>
+      <button type="button" (click)="scrollTo('comunidad')">Comunidad</button>
+    </nav>
+
+    <a
+      class="nav-cta"
+      [href]="linkUrl"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      INGRESA <span>↗</span>
+    </a>
+
+  </div>
+</header>
+
+
+<main>
+
+  <!-- =====================================================
+       HERO
+  ====================================================== -->
+
+  <section class="hero" id="inicio">
+
+    <img
+      class="hero-image"
+      src="assets/images/hero-estudiantes.png"
+      alt="Estudiantes de UCAD colaborando"
+      fetchpriority="high"
+    >
+
+    <div class="hero-overlay"></div>
+
+    <!-- Efectos decorativos -->
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-content section-shell">
+
+      <div class="eyebrow">
+        <span></span>
+        COMUNIDAD ESTUDIANTIL
+      </div>
+
+      <h1>
+        Conecta con nuevas
+        <strong>oportunidades</strong>
+        dentro de UCAD.
+      </h1>
+
+      <p>
+        Una comunidad creada para conectar talento, ideas y oportunidades.
+        Encuentra personas con tus mismos intereses y transforma una conexión
+        en una experiencia que puede cambiarlo todo.
+      </p>
+
+      <div class="hero-actions">
+
+        <a
+          class="button button-lime"
+          [href]="linkUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          INGRESA A UCAD LINK
+          <span>↗</span>
+        </a>
+
+        <button
+          type="button"
+          class="button button-ghost"
+          (click)="scrollTo('explora')"
+        >
+          DESCUBRE MÁS
+          <span>↓</span>
+        </button>
+
+      </div>
+
+      <div class="hero-proof">
+        <span><b>01</b> Conecta</span>
+        <span><b>02</b> Participa</span>
+        <span><b>03</b> Comparte</span>
+      </div>
+
+    </div>
+
+    <div class="hero-scroll">
+      <span>SCROLL PARA EXPLORAR</span>
+      <i></i>
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       INTRO / EXPLORA
+  ====================================================== -->
+
+  <section class="intro section-shell" id="explora">
+
+    <div class="section-kicker">
+      UCAD LINK / UNA COMUNIDAD PARA TI
+    </div>
+
+    <div class="intro-grid">
+
+      <div class="intro-copy">
+
+        <h2>
+          Tu universidad también es una
+          <span>red de oportunidades.</span>
+        </h2>
+
+        <p class="intro-lead">
+          UCAD Link nace para que la vida universitaria no termine
+          cuando sales del aula.
+        </p>
+
+        <p>
+          Aquí puedes descubrir estudiantes de distintas carreras,
+          compartir conocimientos, encontrar intereses en común y
+          formar parte de proyectos que conectan personas con ideas.
+        </p>
+
+        <div class="intro-points">
+
+          <div>
+            <strong>01</strong>
+            <span>Descubre nuevos talentos</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Encuentra intereses en común</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span>Construye nuevas experiencias</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="intro-visual">
+
+        <!-- 🖼️ IMAGEN PRINCIPAL:
+             Ya tienes: anuncio.png
+             Colócala en:
+             src/assets/images/anuncio.png
+        -->
+
+        <img
+          src="assets/images/anuncio.png"
+          alt="Comunidad UCAD Link"
+          class="intro-image"
+        >
+
+        <div class="floating-card floating-card-top">
+          <span class="floating-icon">✦</span>
+          <div>
+            <strong>Conecta</strong>
+            <small>con nuevas personas</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+          <strong>UCAD</strong>
+          <span>LINK</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       NOSOTROS
+  ====================================================== -->
+
+  <section
+    class="benefits section-shell"
+    id="nosotros"
+    aria-labelledby="about-title"
+  >
+
+    <div class="section-heading">
+
+      <div>
+
+        <span class="section-kicker">
+          SOBRE UCAD LINK
+        </span>
+
+        <h2 id="about-title">
+          Una comunidad con
+          <em>propósito.</em>
+        </h2>
+
+      </div>
+
+      <p>
+        UCAD Link nace para fortalecer la comunidad universitaria,
+        conectando estudiantes, conocimientos, intereses y oportunidades
+        en un mismo espacio.
+      </p>
+
+    </div>
+
+
+    <div class="benefit-grid">
+
+      <article class="benefit-card">
+
+        <div class="benefit-number">
+          01
+        </div>
+
+        <div class="benefit-card-glow"></div>
+
+        <div class="icon-box">
+          <span class="icon icon-link">↗</span>
+        </div>
+
+        <h3>Misión</h3>
+
+        <p>
+          Conectar a la comunidad universitaria de UCAD en un espacio
+          digital donde los estudiantes puedan compartir conocimientos,
+          descubrir intereses en común, crear vínculos y transformar
+          conexiones en nuevas oportunidades.
+        </p>
+
+        <span class="card-arrow">
+          →
+        </span>
+
+      </article>
+
+
+      <article class="benefit-card">
+
+        <div class="benefit-number">
+          02
+        </div>
+
+        <div class="benefit-card-glow"></div>
+
+        <div class="icon-box">
+          <span class="icon icon-grid">✦</span>
+        </div>
+
+        <h3>Visión</h3>
+
+        <p>
+          Ser una comunidad universitaria dinámica e innovadora que
+          impulse la colaboración, el aprendizaje y la creación de
+          oportunidades, fortaleciendo las conexiones entre estudiantes
+          dentro y fuera del aula.
+        </p>
+
+        <span class="card-arrow">
+          →
+        </span>
+
+      </article>
+
+
+      <article class="benefit-card">
+
+        <div class="benefit-number">
+          03
+        </div>
+
+        <div class="benefit-card-glow"></div>
+
+        <div class="icon-box">
+          <span class="icon icon-share">◌</span>
+        </div>
+
+        <h3>Valores</h3>
+
+        <p>
+          <strong>Colabora.</strong> Construimos juntos y compartimos
+          nuestras ideas.
+          <br><br>
+          <strong>Aprende.</strong> Crecemos a través del conocimiento
+          y las experiencias de nuestra comunidad.
+          <br><br>
+          <strong>Crece.</strong> Convertimos cada conexión en una
+          oportunidad para avanzar.
+        </p>
+
+        <span class="card-arrow">
+          →
+        </span>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       FRASE / IMPACTO
+  ====================================================== -->
+
+  <section class="statement-section">
+
+    <div class="statement-grid"></div>
+
+    <div class="section-shell statement-content">
+
+      <span class="section-kicker">
+        MÁS QUE UNA PLATAFORMA
+      </span>
+
+      <h2>
+        Las mejores oportunidades
+        <span>comienzan con una conexión.</span>
+      </h2>
+
+      <p>
+        Una conversación puede convertirse en un proyecto.
+        Un proyecto puede convertirse en una oportunidad.
+        Y una oportunidad puede convertirse en tu siguiente gran paso.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       BENEFICIOS
+  ====================================================== -->
+
+  <section
+    class="benefits section-shell"
+    aria-labelledby="benefits-title"
+  >
+
+    <div class="section-heading">
+
+      <div>
+
+        <span class="section-kicker">
+          POR QUÉ UCAD LINK?
+        </span>
+
+        <h2 id="benefits-title">
+          Haz que tu experiencia
+          <em>cuente.</em>
+        </h2>
+
+      </div>
+
+      <p>
+        Conecta con personas, ideas y experiencias que pueden formar
+        parte de tu historia universitaria.
+      </p>
+
+    </div>
+
+
+    <div class="benefit-grid">
+
+      @for (benefit of benefits; track benefit.title) {
+
+        <article class="benefit-card">
+
+          <div class="benefit-number">
+            0{{ $index + 1 }}
+          </div>
+
+          <div class="benefit-card-glow"></div>
+
+          <div class="icon-box">
+
+            @if (benefit.icon === 'connect') {
+              <span class="icon icon-link">↗</span>
+            }
+
+            @if (benefit.icon === 'participate') {
+              <span class="icon icon-grid">✦</span>
+            }
+
+            @if (benefit.icon === 'share') {
+              <span class="icon icon-share">◌</span>
+            }
+
+          </div>
+
+          <h3>{{ benefit.title }}</h3>
+
+          <p>
+            {{ benefit.text }}
+          </p>
+
+          <span class="card-arrow">
+            →
+          </span>
+
+        </article>
+
+      }
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       NÚMEROS
+  ====================================================== -->
+
+  <section class="stats-section">
+
+    <div class="section-shell stats-grid">
+
+      <div class="stat-item">
+        <strong>01</strong>
+        <span>Comunidad</span>
+        <p>Un espacio para conectar estudiantes.</p>
+      </div>
+
+      <div class="stat-item">
+        <strong>∞</strong>
+        <span>Conexiones</span>
+        <p>Las posibilidades comienzan contigo.</p>
+      </div>
+
+      <div class="stat-item">
+        <strong>03</strong>
+        <span>Acciones</span>
+        <p>Conecta, participa y comparte.</p>
+      </div>
+
+      <div class="stat-item">
+        <strong>UCAD</strong>
+        <span>Link</span>
+        <p>Tu comunidad universitaria.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       COMUNIDAD EN ACCIÓN
+  ====================================================== -->
+
+  <section class="community" id="proyectos">
+
+    <div class="section-shell">
+
+      <div class="section-heading community-heading">
+
+        <div>
+
+          <span class="section-kicker">
+            LA COMUNIDAD EN ACCIÓN
+          </span>
+
+          <h2>
+            Ideas que se convierten
+            <em>en proyectos.</em>
+          </h2>
+
+        </div>
+
+        <p>
+          Conoce la energía de una comunidad que aprende haciendo,
+          comparte conocimiento y crea en equipo.
+        </p>
+
+      </div>
+
+
+      <div class="project-grid">
+
+        @for (project of projects; track project.title) {
+
+          <article
+            class="project-card"
+            [class.has-image]="!!project.image"
+          >
+
+            @if (project.image) {
+
+              <img
+                [src]="project.image"
+                [alt]="project.title"
+                loading="lazy"
+              >
+
+            }
+
+            <div class="project-shine"></div>
+            <div class="project-shade"></div>
+
+            <div class="project-content">
+
+              <span class="project-category">
+                {{ project.category }}
+              </span>
+
+              <h3>
+                {{ project.title }}
+              </h3>
+
+              <p>
+                {{ project.text }}
+              </p>
+
+              <div class="project-footer">
+
+                <span>
+                  {{ project.stat }}
+                </span>
+
+                <span class="round-arrow">
+                  ↗
+                </span>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        }
+
+      </div>
+
+      <div class="community-banner">
+
+        <div class="community-banner-image">
+
+          <img
+            src="assets/images/estudiando.jpg"
+            alt="Estudiantes colaborando en un proyecto"
+            loading="lazy"
+          >
+
+        </div>
+
+        <div class="community-banner-content">
+
+          <span class="section-kicker">
+            APRENDE HACIENDO
+          </span>
+
+          <h3>
+            Tu próxima idea
+            <span>puede empezar aquí.</span>
+          </h3>
+
+          <p>
+            Comparte lo que sabes, aprende de otros estudiantes
+            y encuentra personas con las que puedas construir algo nuevo.
+          </p>
+
+          <a
+            [href]="linkUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-link"
+          >
+            EXPLORAR UCAD LINK →
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       EXPERIENCIA / COMO FUNCIONA
+  ====================================================== -->
+
+  <section class="experience section-shell">
+
+    <div class="experience-header">
+
+      <span class="section-kicker">
+        TU EXPERIENCIA EN UCAD LINK
+      </span>
+
+      <h2>
+        Tres pasos.
+        <span>Infinitas posibilidades.</span>
+      </h2>
+
+    </div>
+
+
+    <div class="experience-grid">
+
+      <article class="experience-card">
+        <span>01</span>
+        <h3>Explora</h3>
+        <p>
+          Descubre perfiles, proyectos e intereses dentro
+          de la comunidad universitaria.
+        </p>
+      </article>
+
+      <article class="experience-card featured">
+        <span>02</span>
+        <h3>Conecta</h3>
+        <p>
+          Encuentra estudiantes con intereses similares
+          y empieza nuevas conversaciones.
+        </p>
+      </article>
+
+      <article class="experience-card">
+        <span>03</span>
+        <h3>Crea</h3>
+        <p>
+          Convierte tus conexiones en proyectos,
+          colaboraciones y nuevas experiencias.
+        </p>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       TESTIMONIALES
+  ====================================================== -->
+
+  <section
+    class="stories section-shell"
+    id="comunidad"
+    aria-labelledby="stories-title"
+  >
+
+    <div class="stories-top">
+
+      <div>
+
+        <span class="section-kicker">
+          VOCES DE LA COMUNIDAD
+        </span>
+
+        <h2 id="stories-title">
+          Ellos ya están
+          <span>conectando.</span>
+        </h2>
+
+      </div>
+
+      <div class="quote-mark">
+        “
+      </div>
+
+    </div>
+
+
+    <div class="testimonial-grid">
+
+      @for (testimonial of testimonials; track testimonial.name) {
+
+        <article class="testimonial">
+
+          <div class="testimonial-top">
+
+            <div class="avatar">
+              {{ testimonial.initials }}
+            </div>
+
+            <span class="testimonial-number">
+              0{{ $index + 1 }}
+            </span>
+
+          </div>
+
+          <p>
+            “{{ testimonial.quote }}”
+          </p>
+
+          <div class="person">
+
+            <strong>
+              {{ testimonial.name }}
+            </strong>
+
+            <span>
+              {{ testimonial.career }}
+            </span>
+
+          </div>
+
+        </article>
+
+      }
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       BANNER VISUAL
+  ====================================================== -->
+
+  <section class="visual-break">
+
+    <!-- 🖼️ IMAGEN NUEVA RECOMENDADA:
+         Fotografía panorámica de estudiantes.
+         1800x700 aproximadamente.
+         
+         Archivo:
+         assets/images/estudiantes-banner.jpg
+    -->
+
+    <img
+      src="assets/images/EstudianteAfuera.png"
+      alt="Estudiantes de UCAD compartiendo y colaborando"
+      loading="lazy"
+    >
+
+    <div class="visual-break-overlay"></div>
+
+    <div class="visual-break-content">
+
+      <span>
+        UNA COMUNIDAD.
+      </span>
+
+      <strong>
+        MUCHAS HISTORIAS.
+      </strong>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================================
+       CTA FINAL
+  ====================================================== -->
+
+  <section class="final-cta section-shell">
+
+    <div class="cta-inner">
+
+      <div class="cta-orbit orbit-one"></div>
+      <div class="cta-orbit orbit-two"></div>
+      <div class="cta-orbit orbit-three"></div>
+
+      <div class="cta-decoration">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <span class="section-kicker">
+        EL SIGUIENTE PASO ES TUYO
+      </span>
+
+      <h2>
+        Tu próxima conexión
+        <br>
+        <span>puede cambiarlo todo.</span>
+      </h2>
+
+      <p>
+        Accede a UCAD Link, descubre nuevas oportunidades
+        y forma parte de una comunidad que crece contigo.
+      </p>
+
+      <a
+        class="button button-lime button-large"
+        [href]="linkUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        INGRESA A UCAD LINK
+        <span>↗</span>
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+  <div class="section-shell footer-grid">
+
+    <div class="footer-brand">
+
+      <img
+        src="assets/images/logo-ucad-link.png"
+        alt="UCAD Link"
+        class="footer-logo"
+      >
+
+      <p>
+        Juntos llegamos más lejos.
+      </p>
+
+      <p class="muted">
+        Conectando talento universitario.
+      </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <h3>Explora</h3>
+
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#explora">Explora</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#comunidad">Comunidad</a>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <h3>Conecta</h3>
+
+      <a
+        [href]="facebookUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Facebook ↗
+      </a>
+
+      <a
+        [href]="instagramUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Instagram ↗
+      </a>
+
+      <a href="mailto:framesvagency@gmail.com">
+        Correo de contacto
+      </a>
+
+    </div>
+
+
+    <div class="footer-contact">
+
+      <span>UCAD LINK</span>
+
+      <strong>
+        Juntos llegamos más lejos.
+      </strong>
+
+      <a href="mailto:framesvagency@gmail.com">
+        framesvagency@gmail.com
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="section-shell footer-bottom">
+
+    <span>
+      © 2026 UCAD Link. Todos los derechos reservados.
+    </span>
+
+    <span>
+      Comunidad estudiantil · El Salvador
+    </span>
+
+  </div>
+
+</footer>
